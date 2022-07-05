@@ -1,0 +1,64 @@
+
+
+div {
+  display: flex;
+justify-content: center;
+
+}
+
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+div.logo {
+padding-top:17%;
+}
+
+div.poisk{
+padding-bottom:17%;
+}
+ 
+.my-input {
+background: #fff url("images/лупа3.png") no-repeat 5px 5px;
+background-size: auto 65%;
+border: 1px solid #F2EEEE;
+border-radius: 17px;
+width: 500px;
+height: 30px;
+outline: none;
+padding: 0 0 0 30px;
+}
+nav {
+list-style-type: none;
+}
+
+nav.vverx {
+text-align: right;
+}
+nav.vverx ul li {
+display: inline;
+padding:10px;
+}
+
+footer {
+background-color: #E5E5E5;
+padding:9px;
+color: #696969;
+}
+
+nav.niz ul li {
+display: inline;
+text-align:       center;
+padding:9px;
+}
+
+nav.niz ul li a:link, nav.niz ul li a:visited {
+text-decoration:  none;
+	color: #696969;
+}
+nav.vverx ul li a:link, nav.vverx ul li a:visited {
+text-decoration:  none;
+	color: black;
+}
